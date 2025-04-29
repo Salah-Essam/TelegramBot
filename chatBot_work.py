@@ -36,7 +36,7 @@ def categorize_jobs():
 
             if any(word in skills_lower for word in ["full stack", "فل ستاك", "مطور شامل", "fullstack"]):
                 job_data["Full Stack"].append(job_text)
-            elif any(word in skills_lower for word in ["flutter", "اندرويد", "آيفون", "موبايل", "تطبيقات جوال", "ios", "android", "mobile", "react native", "كوتلن", "kotlin", "swift"]):
+            elif any(word in skills_lower for word in ["flutter", "برمجة أندرويد", "اندرويد", "آيفون", "موبايل", "تطبيقات جوال", "ios", "android", "mobile", "react native", "كوتلن", "kotlin", "swift"]):
                 job_data["Mobile"].append(job_text)
             elif any(word in skills_lower for word in ["react", "فرونت اند", "تصميم واجهات", "واجهة المستخدم", "frontend", "html", "css", "javascript", "figma", "ui", "ux", "angular", "next.js", "svelte", "bootstrap", "tailwind"]):
                 job_data["Frontend"].append(job_text)
