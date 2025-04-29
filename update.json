@@ -1,0 +1,47 @@
+{
+    "message": {
+        "channel_chat_created": false,
+        "delete_chat_photo": false,
+        "document": {
+            "file_name": "photo_2025-03-18_20-18-51.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "height": 320,
+                "width": 320,
+                "file_id": "AAMCBAADGQEAAzBoBDgEv5ToKpSIQjARwDOVaFWgiwAC1BcAAg0DIVDT7V56ycAVQgEAB20AAzYE",
+                "file_size": 17710,
+                "file_unique_id": "AQAD1BcAAg0DIVBy"
+            },
+            "file_id": "BQACAgQAAxkBAAMwaAQ4BL-U6CqUiEIwEcAzlWhVoIsAAtQXAAINAyFQ0-1eesnAFUI2BA",
+            "file_size": 97759,
+            "file_unique_id": "AgAD1BcAAg0DIVA",
+            "thumb": {
+                "file_id": "AAMCBAADGQEAAzBoBDgEv5ToKpSIQjARwDOVaFWgiwAC1BcAAg0DIVDT7V56ycAVQgEAB20AAzYE",
+                "file_unique_id": "AQAD1BcAAg0DIVBy",
+                "file_size": 17710,
+                "width": 320,
+                "height": 320
+            }
+        },
+        "group_chat_created": false,
+        "supergroup_chat_created": false,
+        "chat": {
+            "first_name": "Salah",
+            "id": 5328492008,
+            "last_name": "Essam",
+            "type": "private",
+            "username": "Salah_Essam25"
+        },
+        "date": 1745106948,
+        "message_id": 48,
+        "from": {
+            "first_name": "Salah",
+            "id": 5328492008,
+            "is_bot": false,
+            "language_code": "en",
+            "last_name": "Essam",
+            "username": "Salah_Essam25"
+        }
+    },
+    "update_id": 457486574
+}
