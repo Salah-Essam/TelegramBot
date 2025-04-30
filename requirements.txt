@@ -1,0 +1,10 @@
+sqlite3
+telegram
+pandas
+mostaqel
+requests
+beautifulsoup4
+pytz
+selenium
+webdriver-manager
+transformers
