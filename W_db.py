@@ -59,25 +59,25 @@ def store_jobs_in_db(jobs_df):
     conn.commit()
 
     df = pd.read_sql_query("SELECT * FROM jobs", conn)
-    print(df.head())
+    # print(df.head())
 
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
     tables = cursor.fetchall()
-    print("Tables in the database:", tables)
+    # print("Tables in the database:", tables)
 
     cursor.execute("PRAGMA table_info(jobs);")
     columns = cursor.fetchall()
-    print("\nStructure of 'jobs' table:")
-    for col in columns:
-        print(col)
+    # print("\nStructure of 'jobs' table:")
+    # for col in columns:
+        # print(col)
 
     query = """
     SELECT * FROM jobs
     WHERE location LIKE '%Cairo%'
     """
     df_cairo = pd.read_sql_query(query, conn)
-    print("\nJobs in Cairo:")
-    print(df_cairo)
+    # print("\nJobs in Cairo:")
+    # print(df_cairo)
 
     df_company_count = pd.read_sql_query("""
     SELECT company, COUNT(*) as total_jobs
@@ -85,7 +85,7 @@ def store_jobs_in_db(jobs_df):
     GROUP BY company
     ORDER BY total_jobs DESC
     """, conn)
-    print("\nJob count per company:")
-    print(df_company_count)
+    # print("\nJob count per company:")
+    # print(df_company_count)
 
     conn.close()

@@ -8,7 +8,6 @@ import random
 import time
 from urllib.parse import quote
 import pytz
-# from transformers import pipeline
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -110,7 +109,7 @@ def extract_additional_details(project_url):
             'skills': 'غير متوفر'
         }
         
-def scrape_jobs(keyword):
+def M_scrape_jobs(keyword):
     url = generate_url(keyword)
     projects = get_job_data(url)
 
